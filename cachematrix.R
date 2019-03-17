@@ -19,8 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
              getInverse = getInverse)
 }
 
-
-
 ## PART 2----
 
 # Check of inverse matrix is already calculated
@@ -37,8 +35,3 @@ cacheSolve <- function(x, ...) {
         x$setInverse(i)
         i
 }
-
-
-
-## PART 2----
-# Calculate the Inverse Matrix Vector
